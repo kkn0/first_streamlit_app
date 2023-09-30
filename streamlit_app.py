@@ -27,7 +27,7 @@ fruit_choice = st.text_input('What fruit would you like information about?','Kiw
 st.write('The user entered ', fruit_choice)
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit"+fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
 
 
 # write your own comment -what does the next line do? 
